@@ -9,3 +9,5 @@ utf  = "aiueo".encode("UTF-8")
 p sjis.encoding
 p utf.encoding
 p (sjis + utf).encoding
+
+p sjis == utf             # true
